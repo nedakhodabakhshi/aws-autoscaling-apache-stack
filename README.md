@@ -6,6 +6,16 @@ This project deploys an Apache Web Server using EC2, Auto Scaling Group, and App
 ## 🧱 Architecture
 ![Architecture](images/00-architecture-diagram.png)
 
+## 🚀 What This Stack Includes
+
+- ✅ **VPC & Subnets** (pre-existing)
+- ✅ **Key Pair** created via CloudFormation (note: cannot SSH into instances)
+- ✅ **Security Groups** for EC2 and ALB
+- ✅ **Launch Template** with Apache2 installation via `UserData`
+- ✅ **Auto Scaling Group** (Min: 1, Max: 2)
+- ✅ **Application Load Balancer** (ALB) with Target Group and Health Checks
+- ✅ **Public Subnets** for EC2 placement
+
 ## 🚀 Components
 - Launch Template
 - EC2 Ubuntu with Apache
