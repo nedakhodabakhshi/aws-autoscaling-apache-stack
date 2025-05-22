@@ -4,7 +4,7 @@
 This project deploys an Apache Web Server using EC2, Auto Scaling Group, and Application Load Balancer via AWS CloudFormation.
 
 ## 🧱 Architecture
-![Architecture](images/architecture-diagram.png)
+![Architecture](images/00-architecture-diagram.png)
 
 ## 🚀 Components
 - Launch Template
