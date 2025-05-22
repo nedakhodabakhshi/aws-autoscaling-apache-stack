@@ -24,7 +24,38 @@ This project deploys an Apache Web Server using EC2, Auto Scaling Group, and App
 - Security Groups
 - KeyPair
 
+## 📂 Folder Structure
+aws-autoscaling-apache-stack/
+│
+├── templates/
+│ └── main.yaml # CloudFormation template
+│
+├── images/
+│ └── architecture-diagram.png # AWS architecture
+│ └── ... (screenshots)
+│
+│
+└── README.md # This file
+
+
 ## 🔧 Deployment Steps
+### 📍 1. Upload the Template to AWS CloudFormation
+
+1. Go to AWS Console → CloudFormation → **Create Stack**
+2. Choose **“With new resources (standard)”**
+3. **Upload a template file** → `main.yaml`
+4. Click **Next** and name your stack
+5. Click through and **Create Stack**
+
+### 📍 2. Wait for Stack Completion
+
+- Watch for `CREATE_COMPLETE` in CloudFormation
+- Go to **Outputs** tab → copy the **LoadBalancer DNS**
+
+### 🌐 3. Access Apache in Browser
+
+```text
+http://<LoadBalancerDNS>
 
 ### 1. Clone the Repo
 ```bash
