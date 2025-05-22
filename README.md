@@ -12,6 +12,7 @@ This project deploys an Apache Web Server using EC2, Auto Scaling Group, and App
 - Application Load Balancer (ALB)
 - Auto Scaling Group
 - Security Groups
+- KeyPair
 
 ## 🔧 Deployment Steps
 
