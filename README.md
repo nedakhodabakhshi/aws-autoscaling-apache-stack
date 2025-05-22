@@ -39,6 +39,7 @@ aws-autoscaling-apache-stack/
 
 
 ## 🔧 Deployment Steps
+
 ### 📍 1. Upload the Template to AWS CloudFormation
 
 1. Go to AWS Console → CloudFormation → **Create Stack**
